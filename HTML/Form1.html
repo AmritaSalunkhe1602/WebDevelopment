@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Registration Form</title></head>
+    <body>
+        <form action="data.php" target="_top">
+            <label for="FName">First Name:</label>
+            <input id="FName" type="text" name="FirstName" placeholder="First Name"><br><br>
+
+            <label for="MName">Middle Name:</label>
+            <input id="MName" type="text" name="MiddleName" placeholder="Middle Name"><br><br>
+
+            <label for="LName">Last Name:</label>
+            <input id="LName" type="text" name="LastName" placeholder="Last Name"><br><br>
+
+            <label for="MobileNo">Mobile No.:</label>
+            <input id="MobileNo" type="text" name="MobileNo" placeholder="Mobile No" maxlength="10"><br><br>
+
+            <label for="DOB">DOB:</label>
+            <input id="DOB" type="date" name="DOB" placeholder="Date of Birth"><br><br>
+
+            <label for="Gender">Gender:</label>
+            <input id="Male" type="radio" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input id="Female" type="radio" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input id="Other" type="radio" name="Gender" value="Other">
+            <label for="Other">Other</label><br><br>
+
+            <label for="Languages">Languages:</label>
+            <input id="Languages" type="checkbox" name="Languages" value="HTML">
+            <label for="HTML">HTML</label>
+            <input id="Languages" type="checkbox" name="Languages" value="Java" >
+            <label for="Java">Java</label>
+            <input id="Languages" type="checkbox" name="Languages" value="PHP"checked="checked"P>
+            <label for="PHP">PHP</label>
+            <input id="Languages" type="checkbox" name="Languages" value="Python">
+            <label for="Python">Python</label><br><br>
+
+            <label for="state">Select Your State:</label>
+            <select id="state" name="state" >
+                <option value="Select" >Select</option>
+                <option value="Maharashtra" >Maharashtra</option>
+                <option value="Aasam" >Aasam</option>
+                <option value="Zarkhand">Zarkhand</option>
+                <option value="Goa">Goa</option>
+            </select><br><br>
+
+            <label for="message">Address:</label>
+            <textarea name="message" style="height:100px;width:100px"></textarea><br><br>
+            
+            <input type="submit" >
+        </form>
+    </body>
+</html>

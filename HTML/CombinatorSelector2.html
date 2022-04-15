@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling</title>
+    <style>
+        main +p{
+            color: blue;
+        }
+        main ~p{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>demo1</p>
+        <p>demo2</p>
+    </div>
+    <p>demo3</p>
+    <p>demo4</p>
+    <main>
+        <p>demo5</p>
+    </main>
+    <p>demo6</p>
+    <p>demo7</p>
+    <div>
+        <p>demo8</p>
+    </div>
+    <p>demo9</p>
+</body>
+</html>

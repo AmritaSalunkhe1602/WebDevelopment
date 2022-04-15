@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator Selector Descendant space, child >,  Adjacent sibling +,General sibling ~</title>
+    <style>
+        div ~p{
+            color:blue;
+        }
+        div +p{
+            color:chocolate;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div>
+            <p>Demo1</p>
+             <p>Demo2</p>
+        </div>
+             <p>Demo3</p>
+             <p>Demo9</p>
+        <section>
+            <p>Demo4</p>
+            <p>Demo5</p>
+        </section>
+        <p>Demo5</p>
+        <p>Demo6</p>
+        <main>
+            <p>Demo7</p>
+        </main>
+            <p>Demo8</p>
+    </section>
+</body>
+</html>

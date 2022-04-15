@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head><title>Fieldset and Legend elements</title></head>
+<body>
+    <h3>Grouping Form Data With Fieldset</h3>
+    <form>
+        <fieldset style="margin:100px; ">
+        <legend style="background-color:darkslategray;color:white;margin: 5px;">Personaila</legend>
+       <pre> <table>
+       <tr> <td>                                           </td> 
+           <td><label for="fname">First Name:</label><br></td>
+        <td>                                           </td>
+        <td><label for="mobno">Mobile No:</label></td><br>
+        <td>                                           </td>
+       </tr>
+
+       <tr><td>                                           </td> 
+           <td><input type="text" id="fname" name="fname" placeholder="Enter your First Name"><br><br></td>
+            <td>                                             </td>
+       
+        <td><input type="text" id="mobno" name="mobno"  placeholder="Enter Mobile No" maxlength="10"><br><br></td>
+        <td>                                           </td>
+       </tr>
+
+       <tr><td>                                           </td>
+            <td><label for="mname">Middle Name:</label><br></td>
+        <td>                                             </td>
+        <td><label for="address">Address:</label><br></td>
+    </tr>
+    <tr><td>                                           </td> 
+        <td><input type="text" id="mname" name="mname" placeholder="Enter your middle name"><br><br></td>
+        <td>                                             </td>
+        <td><textarea id="address" name="address" placeholder="Enter your address"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>                                           </td>
+         <td><label for="lname">Last Name:</label><br></td>
+         <td>                                           </td>
+         <td><label for="email">Email Id:</label><br></td>
+         <td>                                           </td>
+    </tr>
+
+    <tr> 
+        <td>                                           </td>
+        <td><input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br></td>
+        <td>                                           </td>
+       <td> <input type="email" id="email" name="email" placeholder="Enter your Email Id"><br><br></td>
+        <td>                                           </td>
+    </tr>
+
+    <tr>
+        <td>                                           </td>
+       <!--<td><input type="submit"></td>--> 
+       <td>
+           <button onclick="alert('Saved Successfully')">Submit</button>
+       </td>
+        <td>                                           </td>
+       <td><input type="reset"></td>
+      
+        <td>                                           </td>
+    </tr>
+    </table>
+</pre>
+    </fieldset></form>
+</body>
+</html>

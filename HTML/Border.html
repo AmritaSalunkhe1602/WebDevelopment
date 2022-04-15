@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  animation: mymove 5s infinite;
+}
+#a{
+  border:2px solid;
+  border-style: groove;
+}
+
+
+@keyframes mymove {
+  50% {border: 70px solid lightblue;}
+}
+</style>
+</head>
+<body>
+
+<h1>Animation of border</h1>
+
+<p>Gradually change the border property:<p>
+<div id="myDIV"></div>
+
+<p id="a">The border property is a shorthand property for all border properties.</p>
+<p id="b">See individual border properties to see which is <em>animatable</em>.</p>
+
+</body>
+</html>

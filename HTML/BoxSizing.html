@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        section{
+            border:1px solid;
+           
+            height: 300px;
+        }
+        section>div{
+            border:1px solid;
+            margin:5px;
+            
+            float: left;
+           overflow: auto;
+            width:17%;
+            
+        }
+        img{
+            
+            padding: 30px;
+            height:200px ;
+            width:100%;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="../Images/c1.jpg">
+        </div>
+        <div>
+            <img src="../Images/c2.jpg" >
+        </div>
+        <div>
+            <img src="../Images/c3.jpg">
+        </div>
+        <div>
+            <img src="../Images/c4.jpg" >
+        </div>
+        <div>
+            <img src="../Images/c5.jpg" height="200px" width="200px">
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table colspan and rowspan </title>
+    </head>
+    <body>
+         <table border="1px solid" style="border-collapse:collapse">
+             <th colspan="3">DayMonthYear</th>
+             <tr>
+                 <td rowspan="2">Sun</td>
+                 <!--<td>Jan</td>
+                 <td>2000</td>-->
+                 <td colspan="2"> jan 2022</td>
+             </tr>
+             <tr> 
+                 <td>Feb</td>
+                 <td>2001</td>
+             </tr>
+         </table><br>
+         <table border="1px solid" style="border-collapse:collapse">
+             <tr>
+                 <th>Day</th>
+                 <th>Month</th>
+                 <th>Year</th>
+             </tr>
+             <tr>
+                 <td>sun</td>
+                 <td style="text-align:center" colspan="2" rowspan="2">null</td>
+             </tr>
+             <tr>
+                <td>Mon</td>
+            </tr>
+         </table><br>
+         <table border="1px solid" style="border-collapse:collapse">
+           <th colspan="2">Date</th>
+          <tr>
+              <td rowspan="2">Jan</td>
+              <td>2000</td>
+          </tr> 
+          <tr>
+            <td>2001</td>
+          </tr>
+ </table>
+ 
+    </body>
+</html>

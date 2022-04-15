@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Assignment</title>
+    <style>
+        .header{
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+        .container{
+            border: 1px solid;
+            display: flex;
+            padding: 5px;
+        }
+        .one{
+            border: 1px solid;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-grow: 7;
+            padding: 5px;
+            margin: 5px;
+        }
+        .abc{
+            border:1px solid green;
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+        }
+        .same{
+            border: 1px solid red;
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+        }
+        .two{
+            border: 1px solid;
+            display: flex;
+            flex-grow: 1;
+            padding: 5px;
+            margin: 5px;
+            justify-content: center;
+        }
+        .two>ol{
+            list-style: none;
+            
+        }
+        .two>ol>li{
+            border: 1px solid ;
+            padding:20px 120px 20px 120px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+        <div class="header">Header</div>
+        <div class="container">
+             <div class="one">
+                 <div class="abc">
+                     <div class="same"></div>
+                     <div class="same"></div>
+                     <div class="same"></div>
+                     <div class="same"></div>
+                 </div>
+                 <div class="abc">
+                    <div class="same"></div>
+                    <div class="same"></div>
+                    <div class="same"></div>
+                    <div class="same"></div>
+                 </div>
+                 <div class="abc">
+                    <div class="same"></div>
+                    <div class="same"></div>
+                    <div class="same"></div>
+                    <div class="same"></div>
+                 </div>
+             </div>
+             <div class="two">
+                 <ol>
+                     <li>A</li>
+                     <li>B</li>
+                     <li>C</li>
+                     <li>D</li>
+                     <li>E</li>
+                 </ol>
+             </div>
+        </div>
+</body>
+</html>

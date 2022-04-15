@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+    <style>
+        .main{
+            border:1px solid;
+           height: 1000px;
+        }
+        .one{
+            border:1px solid red;
+            position: sticky;
+            height: 500px;
+            width: 200px;
+        }
+        .two{
+            border: 1px solid;
+            height: 400px;
+            width: 200px;
+            position: fixed;
+        }
+        .three{
+            border: 1px solid red;
+            height: 300px;
+            width: 200px;
+            position: absolute;
+            top:40px;
+            left:300px;
+        }
+        .four{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+</body>
+</html>
