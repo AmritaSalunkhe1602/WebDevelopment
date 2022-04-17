@@ -1,0 +1,50 @@
+.container1{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.middle{
+    border:1px solid;
+    display: flex;
+    height: 500px;
+}
+.sidebar{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: stretch;
+    padding: 50px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.sidebar>a{
+    border:1px solid;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+.detail{
+    border: 1px solid red;
+    display: flex;
+    justify-content: stretch;
+    padding: 5px;
+    flex-direction: column;
+    margin: 5px;
+    flex-grow: 4;
+}
+.product{
+    border: 1px solid ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.same{
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}

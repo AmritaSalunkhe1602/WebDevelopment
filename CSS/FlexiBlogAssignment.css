@@ -1,0 +1,296 @@
+.main1{
+    border: 1px solid;
+    height: 2000px;
+}
+.header{
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px 100px 5px 100px;
+}
+.logo{
+    border: 1px solid;
+    padding: 10px;
+    display: inline-block;
+    width:150px;
+    margin-left: 145px;
+    
+}
+.logoimg{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+   
+    float: left;
+}
+.logocontent{
+    border: 1px solid;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    clear: left;
+    margin: 5px;
+}
+.search{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin-left: 150px;
+    
+    display: inline-block;
+}
+.txtbox{
+    
+    background-color: lightgray;
+    text-decoration: none;
+    height: 35px;
+    width: 250px;
+}
+.menu{
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 70px;
+}
+.menu>a{
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+.menu>.onoff{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+}
+.middle{
+    border: 1px solid;
+    background-color: ghostwhite;
+    margin: 10px 100px 5px 100px;
+}
+.middle1{
+    border:1px solid;
+    background-color:rgb(240, 240, 248);
+    margin-top: 5px;
+}
+.links{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+.same{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    margin-right: 30px;
+}
+.same>a{
+    text-decoration: none;
+    color:gray;
+}
+.sameimg{
+    border: 1px solid;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+.same>span{
+    border: 1px solid;
+    
+}
+.detail{
+    border: 1px solid;
+    margin-bottom: 10px;
+    height:  400px;
+}
+.detail>.one{
+    position: absolute;
+    border: 1px solid green;
+    padding: 10px;
+    top:300px;
+    left: 260px;
+}
+
+.tech{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: lightskyblue;
+    text-decoration: none;
+    color: black;
+}
+.one>h1,h6{
+    border: 1px solid;
+    display: inline-block;
+}
+.detail>.two{
+    border-top: 5px solid lightgrey;
+    border-left: 5px solid lightgrey;
+    position: absolute;
+    border-radius: 60px;
+    border-top-left-radius: 5px;
+    top:250px;
+    left: 1010px;
+}
+.two>img{
+    height: 300px;
+    width: 200px;
+}
+.three{
+    border: 1px solid;
+    position: absolute;
+    top: 300px;
+    left: 1319px;
+    width:100px;
+}
+.three>p{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+}
+.three>p>a{
+    text-decoration: none;
+    color: black;
+    
+}
+.three>p>a>img{
+    border: 1px solid;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+.three>p>a>span{
+    border: 1px solid;
+    font-size: 10px;
+    padding: 7px;
+}
+.quote{
+    border: 1px solid;
+    padding: 20px;
+}
+.quote>.aa{
+    border-left: 5px solid lightgrey;
+    border-radius: 10px 20px 20px 10px;
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    width: 260px;
+}
+.quote>.a{
+    margin-left: 130px;
+}
+.quote>.b,.c{
+    margin-left: 60px;
+}
+
+.quoteimg{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 70px;
+    float: left;
+}
+.quotecontent{
+    border: 1px solid;
+    padding: 5px;
+    
+    margin: 10px;
+}
+.quotecontent1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.quotecontent2{
+    font-size: 10px;
+    
+}
+.middle2{
+    border: 1px solid;
+
+}
+.footer1{
+    border: 1px solid ;
+    margin: 20px 190px 20px 150px;
+    font-weight: bold;
+}
+.footer2{
+    border: 1px solid ;
+    margin: 20px 190px 20px 150px;
+
+}
+.footer2>.same{
+    border: 1px solid;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 240px;
+    height: 300px;
+}
+.footer2>.same>.technology{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(135, 233, 250);
+    padding: 8px;
+}
+
+.footer3{
+    border: 1px solid ;
+    margin: 20px 190px 20px 150px;
+
+}
+.footer3>.x{
+    border: 1px solid;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url("../Images/coffeeback2.jpg");
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+    width: 240px;
+    text-align: center;
+   padding: 10px;
+   margin-right: 20px;
+}
+.footer3>.x>.tech1{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(135, 233, 250);
+    padding: 5px;
+    
+    text-decoration: none;
+    color: black;
+   
+}
+.footer3>.y{
+    border: 1px solid;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url("../Images/coffeeback1.jpg");
+    background-size: cover;
+    display: inline-block;
+    height: 200px;
+    width: 240px;
+    margin-right: 20px;
+}
+.footer3>.z{
+    border: 1px solid;
+    border-radius: 20px 20px 0px 0px;
+    display: inline-block;
+    height: 200px;
+    width: 240px;
+}
+.footer3>.z>.zimg{
+    border:px solid;
+    height: 150px;
+    width: 100px;
+    float: left;
+}
+.footer3>.z>.zcontent{
+    border: 1px solid;
+    clear: left;
+}
+

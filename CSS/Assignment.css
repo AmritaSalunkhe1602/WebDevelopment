@@ -1,0 +1,175 @@
+#main{
+    background-color: lightgray;
+    height: 820px;
+    width: 1160px;
+    margin-left:190px ;
+}
+header{
+    background-color: rgb(184, 177, 177);
+    height: 50px;
+    width:1160px;
+    }
+    .head{
+        background-color: rgb(125, 123, 123);
+        height: 50px;
+        width:190px;
+        margin-left: 100px;
+       display: inline-block;
+   }
+    .menu{
+        display: inline-block;
+        margin-left: 70px;
+        
+        height: 50px;
+        width:500px;
+    }
+    .menu p{
+       display: inline-block;
+        padding: 2px 30px;
+    }
+    .tagline{
+        height: 300px;
+        width:540px;
+        margin: 10px 380px 10px 100px;
+        background-color: rgb(184, 177, 177);
+        display: inline;
+        position: absolute;
+    }
+    .tagline p{
+        padding: 70px 170px;
+    }
+    .tag{
+        
+        margin: 320px 380px 10px 260px;
+        padding: 5px 20px;
+        display: inline;
+        position: absolute;
+    }
+    .data{
+        display: inline-block;
+        background-color: rgb(145, 142, 142);
+        height: 765px;
+        width:300px;
+        margin:2px 100px 0px 750px ;
+    }
+    .img{
+       
+        background-color: rgb(184, 177, 177);
+        height: 200px;
+        width:280px ;
+       margin: 10px;
+    }
+    .img p{
+        padding: 70px 60px;
+    }
+    .bio{
+        
+        background-color: rgb(169, 165, 165);
+        height: 400px;
+        width:285px;
+        margin:20px 5px  ;
+    }
+    .born{
+        
+        height: 70px;
+        
+    }
+    .jio{
+        position: absolute;
+        display: inline;
+        padding: 5px;
+    }
+    .same{
+        border-top:2px solid;
+        width:235px;
+        position: absolute;
+        margin-left: 50px;
+    }
+    .one {
+        margin-top: 15px;
+        margin-left: 100px;
+        display: inline;
+        position: absolute;
+    }
+    .job{
+        
+        height: 387px;
+        width:635px;
+        margin: 380px 100px;
+        display: inline;
+        position: absolute;
+    }
+    .datetime1{
+        
+        background-color:rgb(169, 165, 165) ;
+        height: 40px;
+        width:632px;
+        display: inline;
+        position: absolute;
+    }
+    .datetime2{
+       
+        background-color:rgb(169, 165, 165) ;
+        height: 40px;
+        width:632px;
+        display: inline;
+        position: absolute;
+        margin-top: 50px;
+    }
+    .datetime3{
+        
+        background-color:rgb(169, 165, 165) ;
+        height: 40px;
+        width:632px;
+        display: inline;
+        position: absolute;
+        margin-top: 100px;
+    }
+    .datetime4{
+        
+        background-color:rgb(169, 165, 165) ;
+        height: 40px;
+        width:632px;
+        display: inline;
+        position: absolute;
+        margin-top: 150px;
+    }
+    .datetime5{
+       
+        background-color:rgb(169, 165, 165) ;
+        height: 40px;
+        width:632px;
+        display: inline;
+        position: absolute;
+        margin-top: 200px;
+    }
+    .footer{
+        background-color:rgb(169, 165, 165) ;
+       text-align: center;
+        height: 100px;
+        width:633px;
+        margin: 270px 0px;
+        display: inline;
+        position: absolute;
+    }
+    .date{
+        
+        height: 20px;
+        width:130px;
+        background-color: rgb(113, 111, 111);
+        text-align: center;
+        color: white;
+        padding: 9px 20px;
+        display: inline;
+        position: absolute;
+    }
+    .time{
+       
+        height: 20px;
+        width:200px;
+        margin-left: 200px;
+        text-align: center;
+        padding: 9px 20px;
+        display: inline;
+        position: absolute;
+    }

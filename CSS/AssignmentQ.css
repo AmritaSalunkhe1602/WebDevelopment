@@ -1,0 +1,97 @@
+.main{
+    border: 1px solid;
+    background-color:rgb(247, 230, 233);
+    margin:10px 250px;
+    width:900px;
+}
+.header{
+    border: 1px solid;
+    background-color: lightgray;
+    height: 50px;
+    width:900px;
+   }
+.logo{
+    border: 1px solid;
+    background-color: gray;
+    height: 45px;
+    width:200px;
+   margin-left: 40px;
+   display: inline-block;
+}
+.logo>p{
+    padding: 0px 90px;
+    color: white;
+    display: inline-block;
+}
+.menu{
+    border: 1px Solid;
+    height: 50px;
+    width:500px;
+   margin-left:50px;
+   display: inline-block;
+}
+.menu>p{
+    display:inline-block;
+    padding: 2px 30px;
+}
+.welcome{
+    border: 1px solid;
+    height: 500px;
+    width: 900px;
+}
+.one{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+.two{
+    padding-left: 300px;
+    padding-top: 120px;
+    font-size: 28px;
+}
+.three{
+    padding-left: 100px;
+    padding-top: 1px;
+}
+.four{
+   
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width:130px;
+    margin-left: 380px;
+}
+.info1{
+    border: 1px solid;
+    background-color:lightgray;
+    height: 130px;
+    width: 900px;
+
+}
+.footer{
+    border:1px solid;
+    padding: 5px;
+    width: 890px;
+}
+.footer1{
+    border: 1px solid;
+    background-color: rgb(215, 190, 190);
+    display: inline-block;
+    width:430px;
+    margin-right: 20px;
+}
+
+.footer2{
+    border:1px solid;
+    background-color:rgb(215, 190, 190); 
+    width: 430px;
+    display: inline-block; 
+   
+}
+
+.info2{
+    border: 1px solid;
+    background-color: lightgray;
+    height: 130px;
+    width: 900px;
+}

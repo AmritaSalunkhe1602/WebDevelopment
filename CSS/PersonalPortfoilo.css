@@ -1,0 +1,277 @@
+.main{
+    border: 1px solid;
+    height: 2750px;
+    background-color:rgba(32, 31, 31, 0.963);
+   }
+.header{
+   position: fixed;
+   height: 70px;
+    background-color: black;
+    right: 8px;
+    left: 8px;
+}
+.one{
+   padding: 5px;
+   width:400px;
+    display: inline-block;
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    float: left;   
+}
+.hh{
+    text-decoration: none;
+}
+.h1{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    display: inline-block;
+    margin: 5px ;
+   }
+.h2{
+    color:lightsteelblue;
+    font-size: 13px;
+    font-family:Verdana;
+    margin: 5px;
+    text-decoration: none;
+}
+.h2:hover{
+    color: white;
+}
+.follow{
+    background-color:rgba(93, 232, 93, 0.9);
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+   padding: 4px;
+}
+.follow:hover{
+    background-color: green;
+    color: white;
+}
+.menu{
+    width:450px;
+    height: 70px;
+    float: right; 
+    padding: 10px;
+}
+.same{
+    background-color: rgb(55, 60, 66);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: white;
+}
+.same:hover{
+    background-color: gray;
+}
+
+.love{
+ 
+    width: 30px;
+}
+
+.sign{
+    background-color: rgba(93, 232, 93, 0.9);
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.sign:hover{
+    background-color: green;
+    color: white;
+}
+.navbar{
+    background-color:rgba(192, 22, 50, 0.849); 
+    position: fixed; 
+    top: 78px;
+    right: 8px;
+    left: 8px;
+   }
+.nav{
+    background-color: rgba(250, 235, 215, 0.089);
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.menuline{
+    border-top: 5px solid darkgreen;
+   padding: 2px 15px;   
+}
+.links{
+    float: right;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.same1{
+    padding: 22px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.same1:hover{
+    background-color:#004687;
+    opacity: .8;
+}
+.middle{
+    position:relative;
+    top: 147px;
+}
+.intro{
+    margin: 230px;
+    text-align: center;
+}
+.h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family:Arial;
+}
+.h4{
+    color: rgb(185, 58, 58);
+    font-size: 30px;
+    font-style: italic;
+    font-family:Arial;
+}
+.title{
+     background-color:rgba(67, 61, 135, 0.838);
+    position:relative;
+    top:150px;
+}
+.head{
+    text-align: center;
+    padding-top: 130px;
+}
+.h5{
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    font-family: Arial;
+}
+.line{
+    border-top: 2px solid white;
+    margin:0px 420px 10px 420px;
+}
+.gallary{
+    margin:50px 100px 100px 100px; 
+    overflow: auto;
+}
+.row{
+    overflow: auto;  
+    box-sizing: border-box;
+}
+.similar{ 
+    padding: 20px;
+    display: inline-block;
+}
+.imgs{
+    float: left;
+    height: 370px;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.a{
+    display: inline-block; 
+    width: 380px;
+   height: 440px;
+    background-color: rgb(45, 44, 44);
+    text-align: center;   
+
+}
+.aa{
+    text-decoration: none; 
+}
+.aaa{ 
+    padding-top: 15px;
+    color: white;
+    font-size: 25px;
+   }
+.similar>.a:hover{
+           background-color:black;
+          
+}
+
+.show{
+    width: 150px;
+    padding: 16px;
+    overflow: auto;
+    background-color: rgb(45, 44, 44);
+    text-align: center;
+    margin-left: 600px ;
+    margin-top: 70px;
+   }
+.show>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.show:hover{
+           background-color:brown;
+}
+
+.quote{
+    margin:300px 300px 50px 300px;
+    text-align: center;
+}
+.p{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family:Arial;
+}
+.q{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family:Arial;
+}
+.media{
+    margin: 10px;
+    text-align: center;
+}
+.equal{
+    width: 30px;
+    height:30px;
+}
+.media>a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+}
+.fb{
+    margin-left: 40px;
+}
+.fb:hover{
+    position: relative;
+    top: 10px;
+}
+.horizontal{
+    border-top: 4px solid rgba(192, 22, 50, 0.849);
+    margin-top: 200px;
+}
+.footer{
+    padding: 50px;
+}
+.note{
+     color: white;
+     font-size: 20px;
+     font-family:'Times New Roman', Times, serif;
+     text-decoration: none;
+}
+.note1{
+    margin:50px;
+}
+.note2{
+    margin:10px 10px 10px 150px;
+}
+.fire{
+    height: 30px;
+    width: 30px;
+}

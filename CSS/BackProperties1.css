@@ -1,0 +1,7 @@
+#abc{
+    background-image: url("../Images/c7.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+    background-size: contain;
+}

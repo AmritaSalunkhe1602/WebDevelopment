@@ -1,0 +1,14 @@
+.main{
+    border: 1px solid black;
+    margin-left: 90px;
+    margin-right: 90px;
+   
+}
+.main h1{
+    background-color: blue;
+    font-size:80px;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    
+}

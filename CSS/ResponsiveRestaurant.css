@@ -1,0 +1,170 @@
+.main{
+    border: 1px solid;
+    height: 1800px;
+    background-image: url("../Images/rb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    border: 1px solid;
+   height: 60px;
+    margin: 70px 40px 10px 40px;
+    float: left;
+    padding: 6px;
+}
+.h{
+    border: 1px solid;
+    background-color: rgb(246, 201, 40);
+    padding: 13px 80px;
+    margin: 0px 5px 5px 0px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}    
+.middle{
+    border:1px solid;
+    margin:150px 50px 10px 40px;
+    padding: 5px;
+}
+.head{
+    border:1px solid;
+    background-image: url("../Images/head.jpg");
+    background-size: cover;
+    height: 440px;
+    width: 907px;
+   float: left; 
+}
+.head>.h1{
+    background-color: rgb(246, 201, 40);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 170px;
+    
+}
+.head>.h2{
+    
+    background-color: rgb(246, 201, 40);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 370px;
+    width: 140px;
+}
+.same1{
+    border:1px solid;
+    height:210px;
+    width: 470px;
+    background-color: rgb(246, 201, 40);
+    text-align: center;
+    margin-left: 10px;
+   }
+   .first{
+    margin-bottom: 18px;
+   }
+   .rs1{
+       display: inline-block;
+       
+   }
+   .rs1>h2{
+       margin-top: 55px;
+   }
+   .services{
+       border: 1px solid;
+       margin:10px 50px 10px 40px;
+       padding: 5px;
+   }
+   .one{
+       border: 1px solid;
+       display: inline-block;
+       text-align: center;
+       background-color: white;
+       margin-right: 10px;
+       width: 335px;
+   }
+   .two{
+       margin-right: 7px;
+   }
+   .img{
+       margin-top: 20px;
+       height: 90px;
+       width: 100px;
+   }
+   .feature{
+       border: 1px solid;
+       margin:10px 64px 10px 45px;
+       background-color: white;
+   }
+   .khana{
+       border: 1px solid;
+       padding: 5px;
+       display: inline-block;
+       margin-top: 10px;
+       height: 410px;
+       width: 610px;
+   }
+   .dish{
+        height: 400px;
+        width: 600px;
+   }
+   .info{
+       border: 1px solid;
+      margin-left: 30px;
+       display: inline-block;
+       height: 410px;
+       width: 610px;
+       padding: 5px;
+   }
+   .hh{ 
+       font-size: 15px;
+   }
+   .learn{
+       height: 30px;
+       width: 100px;
+       background-color: rgb(246, 201, 40);
+   }
+   .decoration{
+       border: 1px solid;
+       margin:10px 64px 10px 45px;
+      
+   }
+   .similar1{
+    border-top:15px solid rgb(246, 201, 40);
+    width:615px;   
+   float: left;
+   }
+   .similar2{
+    border-top:15px solid rgb(246, 201, 40);
+    width:615px;
+    float: right;
+    
+   }
+   .content{
+      
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width:160px;
+    display: inline-block;
+    
+   }
+   .gallary{
+    border: 1px solid;
+    margin:10px 64px 10px 45px;
+   
+}
+.set1{
+    
+    margin-bottom: 15px;
+}
+.footer{
+    border:1px solid;
+    height: 200px;
+    width: 216px;
+    margin-right: 12px;
+}
+.last{
+    margin-right: 0px;
+}

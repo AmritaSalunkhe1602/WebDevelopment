@@ -1,0 +1,51 @@
+.main{
+    border: 1px solid;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    border: 1px solid red;
+    top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border: 1px solid;
+   padding: 10px 30px; 
+}
+.coffeelogo{
+    height: 20px;
+    width: 20px;
+}
+.menu{
+    border:1px solid;
+}
+.menu>p{
+    display: inline-block;
+    padding-right: 60px;
+}
+.book{
+    border:1px solid;
+    border-top-right-radius:100px 8px ;
+    border-bottom-left-radius:100px 8px;
+   padding: 15px;
+}
+.book>a{
+    text-decoration: none;
+    color: black;
+}
+.book:hover{
+    border: dotted;
+}
+.section{
+    position: relative;
+    top:75px;
+    right: 8px;
+   left: 2px;
+    border: 1px solid red;
+    height: 900px;
+    background-image: url("../Images/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

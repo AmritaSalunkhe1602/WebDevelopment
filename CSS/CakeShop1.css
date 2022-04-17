@@ -1,0 +1,63 @@
+#a{
+    background-color:rgb(240, 158, 219);
+    
+    margin-left: 300px;
+   
+    border-radius: 160px;
+    width: 900px;
+    height: 1200px; 
+    
+}
+#b{
+    background-image: url("../Images/Cakeback1.jpg");
+    height: 1000px;
+    width: 700px;
+    margin-left: 100px;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position:center;
+ }
+ #c{ padding: 20px;
+    margin-left: 100px;
+    background-color: rgba(0,0,0,0.5);
+    height: 100px;
+    width: 685px;
+    }
+    #x{
+        background-image: url("../Images/ck1.jpg");
+        opacity: 0.9;
+        height:500px;
+        width:360px;
+       
+        margin-left: 300px;
+        padding-top: 0px;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: 500px;
+      
+        background-attachment: scroll;
+        
+    }
+    p{
+        padding-top: 110px;
+        text-align:center;
+        font-size:80px;
+        font-style:italic ;
+        
+        color:plum;
+    }
+    #y{ 
+        padding-top:0px;
+        text-align: center;
+        font-size: 50px;
+        font-style: oblique;
+        color:mediumvioletred       
+    }
+    #z{ 
+        padding-top: 0px;
+        text-align: center;
+        color:mediumblue;
+        font-style: italic;
+        font-size: 30px;
+    }
+ 
