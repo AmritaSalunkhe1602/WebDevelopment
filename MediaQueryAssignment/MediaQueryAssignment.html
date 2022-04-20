@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuery Assignment</title>
+    <style>
+        @media screen and (max-width:500px)
+        {
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            .container>.menu>.one{
+               display: block;
+            }
+        }
+        .container{
+            border: 1px solid;
+            display: flex;
+        }
+        .container>.menu{
+            border: 1px solid;
+            padding: 20px;
+            
+        }
+        .one{
+            border: 1px solid;
+            padding: 10px 50px ;
+            margin: 10px;
+        }
+        .container>.content{
+            border: 1px solid;
+           
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="one">Home</div>
+            <div class="one">Home</div>
+            <div class="one">Home</div>
+            <div class="one">Home</div>
+        </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sapiente fugit nesciunt doloremque, quam aut exercitationem
+                 culpa doloribus assumenda reiciendis qui nam, dolore pariatur
+                  nihil nostrum ex hic provident suscipit. Quidem?
+        </div>
+    </div>
+</body>
+</html>

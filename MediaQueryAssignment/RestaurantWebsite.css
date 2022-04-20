@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border:1px solid;
+    height: 5000px;
+    background-image: url("../Images/rb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    border: 1px solid;
+    height: 150px;
+    padding-top: 50px;
+}
+.container1>.one{
+    border: 1px solid;
+    height: 50px;
+    width: 20%;
+    float: left;
+    background-color: rgb(246, 201, 40);
+    text-align: center;
+    
+}
+.container1>.one>a{
+    text-decoration: none;
+    color: black;
+}
+.container2{
+    border: 1px solid;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.container2>.one{
+    border: 1px solid;
+    padding-top: 50px ;
+    height: 500px;
+    width: 70%;
+    text-align: center;
+    background-image: url("../Images/head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    float: left;
+    
+}
+.container2>.one>.h1,.h2{
+    background-color:rgb(246, 201, 40) ;
+    padding: 10px;
+    width: 50%;
+}
+.container2>.two{
+    border: 1px solid green;
+    width: 30%;
+    float: right;
+}
+.container2>.two>.a{
+    border: 1px solid;
+    background-color:rgb(246, 201, 40) ;
+    height: 240px;
+    width: 100%;
+    padding: 70px 160px; 
+}
+.container2>.two>.aa{
+    margin-bottom: 15px;
+}
+.container3{
+    border: 1px solid;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.container3>.one{
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width: 25%;
+    
+}
+.container3>.one>.img{
+    margin-top: 20px;
+    height: 90px;
+    width: 25%;
+}
+.container4{
+    border: 1px solid;
+    background-color: white;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.container4>.one{
+    border: 1px solid;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+.container4>.one>.dish{
+    height: 400px;
+    width: 100%;
+}
+.container4>.two{
+    border: 1px solid;
+    height: 400px;
+    width: 50%;
+    float: right;
+}
+.container4>.two>.hh{ 
+    font-size: 15px;
+}
+.container4>.two>.learn{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(246, 201, 40);
+}
+.container5{
+    border: 1px solid;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.container5>.one{
+    border-top:15px solid rgb(246, 201, 40);
+    width:40%;   
+   float: left;
+   }
+.container5>.three{
+    border-top:15px solid rgb(246, 201, 40);
+    width:40%;
+    float: right; 
+   }
+   .container5>.two{
+    border: 1px solid;  
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width:20%;
+    float: left;  
+   }
+   .container6{
+       border: 1px solid;
+       width: 100%;
+       height: 450px;
+   }
+   .container6>.one{
+    border: 1px solid;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.container6>.one>.footer{
+    border:1px solid;
+    height: 200px;
+    width: 16%;
+}
+
+@media screen and (max-width:900px){
+    .container1>.one{
+        width: 50%;
+    }
+    .container2>.one{
+        width: 100%;
+    }
+    .container2>.one>.h1,.h2{
+      width: 75%;
+    }
+    .container2>.two{
+        width: 100%;
+    }
+    .container3>.one{
+       width: 50%;
+    }
+    .container4>.one{
+        width: 100%;
+    }
+    .container4>.two{
+        width: 100%;
+    }
+    .container5>.one,.container5>.two,.container5>.three{
+        width:100%;
+    }
+    .container6>.one>.footer{
+        width: 25%;
+    }
+}
+@media screen and (max-width:500px){
+    .container1>.one{
+        width: 100%;
+    }
+    .container2>.one>.h1,.h2{
+        width: 50%;
+      }
+      .container3>.one{
+        width: 100%;
+     }
+     .container6>.one>.footer{
+        width: 100%;
+    }
+}
