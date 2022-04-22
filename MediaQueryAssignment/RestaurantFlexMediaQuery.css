@@ -1,0 +1,229 @@
+.main{
+    border:1px solid;
+    height: auto;
+    background-image: url("../Images/rb2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main>.container1{
+    border: 1px solid;
+    height: auto;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.main>.container1,.main>.container1>.row{
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    
+}
+.main>.container1>.row>.one{
+    border: 1px solid;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(246, 201, 40);
+    text-align: center;
+
+}
+.main>.container1>.row>.one>a{
+    text-decoration: none;
+    color: black;
+}
+.container2{
+    border: 1px solid;
+    display: flex;
+   height: auto;
+   margin-bottom: 30px;
+}
+.container2>.one{
+    border: 1px solid;
+    padding-top: 50px ;
+   height: 500px;
+    width: 70%;
+    text-align: center;
+    background-image: url("../Images/head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    }
+.container2>.one>.h1,.h2{
+    background-color:rgb(246, 201, 40) ;
+    padding: 10px;
+    width: 50%;
+}
+.container2>.two{
+    border: 1px solid green;
+    height: 500px;
+   width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.container2>.two>.a{
+    border: 1px solid;
+    background-color:rgb(246, 201, 40) ;
+    height: 240px;   
+    padding: 70px 160px; 
+    width:auto;
+}
+.container2>.two>.aa{
+    margin-bottom: 50px;
+}
+.container3{
+    border: 1px solid;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+.container3>.row{
+    border:1px solid;
+    display: flex;
+    width: 50%;
+}
+.container3>.row>.one{
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width: 50%;
+    
+}
+.container3>.row>.one>.img{
+    margin-top: 20px;
+    height: 90px;
+    width: 25%;
+}
+.container4{
+    border: 1px solid;
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+   
+}
+.container4>.one{
+    border: 1px solid;
+    height: 400px;
+    width: 50%;
+   
+}
+.container4>.one>.dish{
+    height: 400px;
+    width: 100%;
+}
+.container4>.two{
+    border: 1px solid;
+    height: 400px;
+    width: 50%;
+   
+}
+.container4>.two>.hh{ 
+    font-size: 15px;
+}
+.container4>.two>.learn{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(246, 201, 40);
+}
+.container5{
+    border: 1px solid;
+    display: flex;
+    height: 30px; 
+    margin-bottom: 30px;
+}
+.container5>.one{
+    border-top:15px solid rgb(246, 201, 40);
+    width:40%;    
+   }
+.container5>.three{
+    border-top:15px solid rgb(246, 201, 40);
+    width:40%;  
+   }
+   .container5>.two{
+    border: 1px solid;  
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width:20%;   
+   }
+.container6{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.container6>.one{
+ border: 1px solid;
+display: flex;
+width: 100%;
+ margin-bottom: 15px;
+}
+.container6>.one>.row{
+    display: flex;
+    width: 50%;
+}
+.container6>.one>.row>.footer,.container6>.one>.row>.footer>.img{
+    border: 1px solid;
+    height: 200px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:900px){
+    .main>.container1{
+        flex-direction: column;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .container2>.one,.container2>.two{
+        
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .container3>.row{
+        width: 100%;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    .container4>.one,.container4>.two{
+        width: 100%;
+    }
+    .container5{
+        flex-direction: column;
+    }
+    .container5>.one,.container5>.two,.container5>.three{
+        width: 100%;
+    }
+    .container6>.one{
+        flex-direction: column;
+    }
+    .container6>.one>.row{
+        width: 100%;
+    }
+}
+@media screen  and (max-width:500px){
+    .main>.container1>.row{
+        flex-direction: column;
+    }
+    .main>.container1>.row>.one{
+        width: 100%;
+    }
+    .container3>.row{
+        flex-direction: column;
+    }
+    .container3>.row>.one{
+        width: 100%;
+    }
+    .container6>.one>.row{
+        flex-direction: column;
+    }
+    .container6>.one>.row>.footer>.img{
+        width: 100%;
+    }
+}
