@@ -1,0 +1,132 @@
+.main{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    border: 1px solid;
+    display: flex;
+    
+    background-color: bisque;
+}
+.one{
+    border: 1px solid;
+    width: 80%;
+    text-align: center;
+}
+.two{
+    border: 1px solid;
+    width: 20%;
+    text-align: center;
+}
+.two>p>input{
+    padding: 5px;
+}
+.container2{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    background-color:burlywood;
+}
+.container2>.aa{
+    border: 1px solid;
+    display: flex;
+    width: 50%;
+}
+.container2>.aa>.a{
+    border: 1px solid;
+    display: flex;
+    width: 50%;
+}
+.container2>.aa>.a>.one{
+    border: 1px solid;
+    padding: 10px;
+    width: 50%;
+   
+}
+.container2>.aa>.a>.one>a{
+    text-decoration: none;
+    color: black;
+}
+.container2>.aa>.a>.one:hover{
+    background-color: cornsilk;
+}
+.container3{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.container3>.row{
+    border: 1px solid;
+    display: flex;
+}
+.container3>.row>.one{
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.container3>.row>.one>.img{
+    width: 50%;
+}
+.container3>.row>.one>.img>img{
+    width: 100%;
+}
+.container4{
+    border: 1px solid;
+    display: flex;
+    justify-content: end;
+    background-color:bisque;
+}
+.container4>.one{
+    width: 30%;
+}
+@media screen and (max-width:800px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1>.one,.container1>.two{
+        width: 100%;
+    }
+    .container2>.aa{
+        width: 100%;
+        
+    }
+    .container3>.row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .container3>.row>.one{
+
+        width: 100%;
+    }
+    .container4>.one{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .container2>.aa{
+       
+        flex-direction: column;
+    }
+    .container2>.aa>.a{
+        width: 100%;
+    }
+    .container3>.row>.one{
+        flex-direction: column;
+       
+    }
+    .container3>.row>.one>.img,.container3>.row.one>.img>img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:400px){
+    .container2>.aa>.a{
+        flex-direction: column;
+    }
+    .container2>.aa>.a>.one{
+        width: 100%;
+    }
+}
