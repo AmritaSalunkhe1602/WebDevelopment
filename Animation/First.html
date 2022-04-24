@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height: 400px;
+            width: 600px;
+            background-color: aqua;
+            animation-duration: 4s;
+            animation-name: Abc;
+            animation-delay: 3s;
+           margin-bottom:20px;
+        }
+        .two{
+            height: 400px;
+            width: 600px;
+            background-color:black;
+            animation-duration: 4s;
+            animation-name: Pqr;
+            animation-delay: 5s;
+           animation-iteration-count: 10;
+        }
+        @keyframes Abc{
+            0%{
+                background-color: red;
+            }
+            25%{
+                background-color: blue;
+            }
+            50%{
+                background-color: blueviolet;
+            }
+            100%{
+                background-color: crimson;
+            }
+        }
+        @keyframes Pqr{
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: coral;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+</body>
+</html>

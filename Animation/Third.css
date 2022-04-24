@@ -1,0 +1,170 @@
+body{
+    border: 1px solid;
+    display: flex;
+    height: 1000px;
+}
+.container1{
+    border: 1px solid;
+    display: flex;
+    height: auto;
+    width: 50%;
+}
+.container1>.a{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: rgb(80, 80, 239);
+    position: relative;
+    top: 500px;
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.container1>.aa{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: rgb(80, 80, 239);
+    position: relative;
+    top: 400px;
+    animation-name: pqr;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes abc{
+    0%{
+        background-color: rgb(116, 116, 224);
+        top:400px ;
+    }
+    25%{
+        background-color: rgb(139, 139, 231);
+        top:300px ;
+    }
+    50%{
+        background-color: rgb(150, 150, 207);
+        top: 200px;
+    }
+    75%{
+        background-color: rgb(165, 165, 227);
+        top:100px ;
+    }
+    100%{
+        background-color: rgb(199, 199, 234);
+        top:50px ;
+    }
+}
+@keyframes pqr{
+    0%{
+        background-color: rgb(116, 116, 224);
+        top:400px ;
+    }
+    25%{
+        background-color: rgb(139, 139, 231);
+        top:300px ;
+    }
+    50%{
+        background-color: rgb(150, 150, 207);
+        top: 200px;
+    }
+    75%{
+        background-color: rgb(165, 165, 227);
+        top:100px ;
+    }
+    100%{
+        background-color: rgb(199, 199, 234);
+        top:50px ;
+    }
+}
+.container2{
+    border: 1px solid;
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.container2>.one{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: rgb(80, 80, 239);
+    position: relative;
+    top: 500px;
+    animation-name:A ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+   
+}
+.container2>.a{
+    animation-name:A ;
+    animation-delay: 1s;
+}
+.container2>.b{
+        animation-name:A ;
+        animation-delay: 2s;
+    }
+    .container2>.c{
+        animation-name:A ;
+        animation-delay: 3s;
+    }
+    .container2>.d{
+        animation-name:A ;
+        animation-delay: 4s;
+    }
+    .container2>.d{
+        animation-name:A ;
+        animation-delay: 5s;
+    }
+    .container2>.e{
+        animation-name:A ;
+        animation-delay: 6s;
+    }
+    .container2>.f{
+        animation-name:A ;
+        animation-delay: 7s;
+    }
+    .container2>.g{
+        animation-name:A ;
+        animation-delay: 8s;
+    }
+    .container2>.h{
+        animation-name:A ;
+        animation-delay: 9s;
+    }
+    .container2>.i{
+        animation-name:A ;
+        animation-delay: 10s;
+    }
+    .container2>.j{
+        animation-name:A ;
+        animation-delay: 11s;
+    }
+ 
+@keyframes A{ 
+    0%{
+        background-color: rgb(116, 116, 224);
+        top:400px ;
+    }
+    25%{
+        background-color: rgb(139, 139, 231);
+        top:300px ;
+    }
+    50%{
+        background-color: rgb(150, 150, 207);
+        top: 200px;
+    }
+    75%{
+        background-color: rgb(165, 165, 227);
+        top:100px ;
+    }
+    100%{
+        background-color: rgb(199, 199, 234);
+        top:50px ;
+    }
+}
