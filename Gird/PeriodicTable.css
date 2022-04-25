@@ -1,0 +1,131 @@
+.container{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: 'a b b b b b b b b b b b b b b b b c' 'd e f f f f f f f f f f g h i j k l'
+                         'm n o o o o o o o o o o p q r s t u ';
+}
+.a{
+    border: 1px solid blue;
+    text-align: center;
+}
+.aa,.gg,.hh,.ii,.jj,.qq,.rr,.ss,.J,.K,.ccc{
+    background-color:rgb(243, 148, 148) ;
+}
+.dd,.mm,.vv,.N,.fff,.xxx{
+    background-color: rgb(247, 220, 185);
+}
+.ee,.nn,.ww,.O,.ggg,.yyy{
+    background-color: rgb(234, 187, 125);
+}
+.xx,.P,.hhh{
+    background-color: lightgreen;
+}
+.zzz{
+    background-color: skyblue;
+}
+.yy,.zz,.A,.B,.C,.D,.E,.F,.G,.Q,.R,.S,.T,.U,.V,.W,.X,.Y,.iii,.jjj,.kkk,.lll,.mmm,.nnn,.ooo,.ppp,.qqq,.A1,.B1,.C1,.D1,.E1,.F1,.G1,.H1,.I1
+{
+    background-color:rgb(188, 147, 227);
+}
+.pp,.H,.I,.Z,.aaa,.bbb,.rrr,.sss,.ttt,.uuu,.J1,.K1,.L1,.M1{
+    background-color: lightpink;
+}
+.tt,.kk,.L,.ddd,.vvv,.N1{
+    background-color: rgb(130, 202, 130);
+}
+.aa{
+    grid-area: a;
+}
+.BB{
+    grid-area: b;
+}
+.cc{
+    grid-area: c;
+}
+.dd{
+    grid-area: d;
+}
+.ee{
+    grid-area: e;
+}
+.FF{
+    grid-area:f ;
+}
+.gg{
+    grid-area: g;
+}
+.hh{
+    grid-area: h;
+}
+.ii{
+    grid-area: i;
+}
+.jj{
+    grid-area: j;
+}
+.kk{
+    grid-area: k;
+}
+.ll{
+    grid-area: l;
+}
+.mm{
+    grid-area: m;
+}
+.nn{
+    grid-area: n;
+}
+.OO{
+    grid-area: o;
+}
+.pp{
+    grid-area: p;
+}
+.qq{
+    grid-area: q;
+}
+.rr{
+    grid-area: r;
+}
+.ss{
+    grid-area: s;
+}
+.tt{
+    grid-area: t;
+}
+.uu{
+    grid-area: u;
+}
+
+.container1{
+    margin-top: 50px;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 'z1 z1 z1 b c d e f g h i j k l m n o PP' 'QQ QQ QQ r s t u v w x y z A B C D E F ';
+}
+.container1>.XX{
+    grid-area: z1;
+}
+
+.container1>.OOO{
+    grid-area: PP;
+}
+.container1>.PPP{
+    grid-area: QQ;
+}
+.container1>.D2{
+    grid-area: F;
+}
+.container1>.one{
+    border: 1px solid;
+}
+.container1>.a{
+    background-color: lightgreen;
+}
+.container1>.b{
+    background-color: skyblue;
+}

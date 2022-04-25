@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Using Grid</title>
+    <style>
+        .container{
+            border: 1px solid;
+            display: grid;
+            grid-template-rows: 200px 500px;
+        }
+        .one{
+            border: 1px solid;  
+           margin: 10px;
+        }
+        .two{
+            border: 1px solid;   
+            display: grid;
+            grid-template-columns: 300px 1210px;
+        }
+        .a{
+            border: 1px solid;   
+        }
+        .b{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one"></div>
+        <div class="two">
+            <div class="a"></div>
+            <div class="b"></div>
+        </div>
+    </div>
+</body>
+</html>

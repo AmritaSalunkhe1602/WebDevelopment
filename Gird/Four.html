@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Columns an rows Using Grid</title>
+    <style>
+        .container{
+            border: 1px solid;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+           
+        }
+        .a{
+            border: 1px solid;
+            height: 200px; 
+            width: 200px;
+        }
+        .aa{
+          
+            grid-column-start: 1;
+            grid-column-end:  3;
+
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a "></div>
+        <div class="a"></div>
+        <div class="a"></div>
+        <div class="a aa"></div>
+        <div class="a"></div>
+        <div class="a"></div>
+        <div class="a"></div>
+        <div class="a"></div>
+        <div class="a"></div>
+       
+    </div>
+</body>
+</html>
