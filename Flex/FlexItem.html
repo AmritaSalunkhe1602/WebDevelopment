@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <style>
+        .container1{
+            border: 1px solid;
+            display: flex;
+            
+        }
+        .container1>.one{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+           
+            margin-right: 20px;
+        }
+        .container1>.a{
+            order: 4;
+        }
+        .container1>.b{
+            order: 3;
+        }
+        .container1>.c{
+            order: 2;
+        }
+        .container1>.d{
+            order: 1;
+        }
+        .container2{
+            border: 1px solid;
+            margin-top: 20px;
+            display: flex;
+        }
+        .container2>.one{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+           
+            margin-right: 20px;
+        }
+        .container2>.a{
+            flex-grow:1 ;
+        }
+        .container2>.b{
+            flex-grow:2 ;
+        }
+        .container2>.c{
+            flex-grow:3 ;
+        }
+        .container2>.d{
+            flex-grow:2 ;
+        }
+        .container3{
+            border: 1px solid;
+            margin-top: 20px;
+            display: flex;
+           
+        }
+        .container3>.one{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            
+            margin-right: 20px;
+        }
+        .container3>.b{
+            flex-shrink:2 ;
+        }
+        .container4{
+            border: 1px solid;
+            margin-top: 20px;
+            display: flex;
+        }
+        .container4>.one{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+           
+            margin-right: 20px;
+        }
+        .container4>.c{
+            flex-basis: 50px ;
+        }
+        .container5{
+            border: 1px solid;
+            margin-top: 20px;
+            display: flex;
+        }
+        .container5>.one{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+           
+            margin-right: 20px;
+        }
+        .container5>.b{
+            flex:2 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="one a">1</div>
+        <div class="one b">2</div>
+        <div class="one c">3</div>
+        <div class="one d">4</div>
+    </div>
+
+    <div class="container2">
+        <div class="one a "></div>
+        <div class="one b"></div>
+        <div class="one c"></div>
+        <div class="one d"></div>
+    </div>
+
+    <div class="container3">
+        <div class="one a "></div>
+        <div class="one b"></div>
+        <div class="one c"></div>
+        <div class="one d"></div>
+    </div>
+  
+    <div class="container4">
+        <div class="one a "></div>
+        <div class="one b"></div>
+        <div class="one c"></div>
+        <div class="one d"></div>
+    </div>
+    
+    <div class="container5">
+        <div class="one a "></div>
+        <div class="one b"></div>
+        <div class="one c"></div>
+        <div class="one d"></div>
+    </div>
+</body>
+</html>
