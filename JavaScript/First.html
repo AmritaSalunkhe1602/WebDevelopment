@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSript</title>
+    <script>
+        window.alert('From script');
+        window.prompt('Enter Name');
+        function aa() {
+            alert('From script Function');
+            document.getElementById('h').innerHTML='Information Technology';
+        }
+       
+        
+    </script>
+</head>
+<body>
+   <p id="p1">Web Tech</p>
+   <button onclick="document.getElementById('p1').innerHTML='Content Changed';document.getElementById('p1').style='color:blue';">Change Content</button><br>
+   <img src="../Images/c1.jpg" id="img1" alt="aa" height="200px" width="200px">
+   <button onclick="document.getElementById('img1').src='../Images/c2.jpg';">Change Image</button>
+
+
+   <h1 id="h">Computer Science</h1>
+   <button onclick="aa()">Change</button>
+   <script>
+       window.alert('From Body');
+      
+       window.print();
+   </script>
+
+   
+</body>
+</html>
